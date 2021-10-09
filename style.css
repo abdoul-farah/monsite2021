@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+}
+
+nav h1{
+    color: #717171;
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+}
+
+nav .onglets{
+    margin-top:  3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    margin-top: -10px;
+    border-bottom: 1px solid #000;
+    padding: -20px;
+    
+}
+
+@media screen and (max-width:680px) {
+    nav .onglets{
+        margin-bottom:  20px;
+        margin-left: 0px;
+    }
+}
