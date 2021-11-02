@@ -1,0 +1,247 @@
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+ box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Xanh+Mono:ital@1&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 100px;
+}
+
+nav{
+
+    position: relative;
+  background:#ffffff;
+ 
+  padding: 20px 0;
+
+
+  
+  
+  
+}
+
+.wrapper{
+    margin-top: 20px;
+    
+    padding: 0;
+    height: 40px;
+}
+
+
+h1{
+  color:#000000;
+  font-weight:100;
+}
+
+.btn{
+  color:rgb(255, 255, 255);
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:#000000;
+  
+  padding:20px 20px; 
+  color:#ffffff;
+}
+
+
+
+
+.header{
+    position: relative;
+    height: 400px;
+background-image: url(/images/djibouti_240.jpg);
+background-size: cover;
+    
+   box-shadow: 5px 10px 18px #888888;
+ 
+}
+
+.header h1{
+    color: #ffffff;
+    font-family: 'Xanh Mono', monospace;
+    opacity: 0;
+    
+    padding-top: 100px;
+   
+    text-align: center;
+}
+
+.header h2{
+    color: #ffffff;
+    font-family: 'Xanh Mono', monospace;
+    opacity: 0;
+    text-align: center;
+    
+}
+.header img{
+    width: 100%;
+    height: 100%
+    
+
+    
+}
+
+
+.but-acc{
+    cursor: pointer;
+    position: absolute;
+    
+    left: 50%;
+    top: 80%;
+    text-align: center;
+    
+    transform: translate(-50%, -50%);
+
+    height: 50px;
+    width: 170px;
+    
+    background-color:  #F0FFFF;
+    border: none;
+    padding: 13px;
+    opacity: 0;
+    font-size: 16px;
+    color:white;
+}
+
+.but-acc a {
+  
+    text-decoration: none;
+    color:black;
+    
+   
+  
+}
+
+.but-acc a:hover {
+  
+    
+    color: white;
+    
+   
+  
+}
+
+
+.but-acc:hover{
+    font-size: 17px;
+    opacity: 1;
+    
+    color: white;
+   
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+
+.but-acc:hover a{
+    color: white;
+}
+/*______________________________*/
+
+  
+  .typing-demo {
+      margin-bottom: 20px;
+    width: 11ch;
+    animation: typing 2s steps(11), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+/*____________________________*/
+
+
+
+/*_________________GRID CSS________________________________*/
+
+.post{
+    position: relative;
+    height: 350px;
+    background-color: rgb(255, 8, 8);
+    border: 1px solid #A9A9A9;
+    
+  /*  box-shadow: 5px 10px 18px #888888;*/
+}
+
+.left{
+    float: left;
+   width: 50%;
+   height: 100%;
+    background-color: firebrick;
+    
+
+}
+
+.right{
+    float: right;
+   width: 50%;
+   height: 100%;
+    background-color: rgb(34, 173, 178);
+    
+
+}
+
+.grid-container{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.reseau{
+    position: absolute;
+    right: 0%;
+    bottom: 10px;
+   /* border: 1px solid black;*/
+    padding-bottom: 10px;
+    
+}
+
+.reseau a{
+    padding-left: 10px;
+    
+  
+    color: rgba(0, 0, 0, 0.5);
+ 
+}
+
+.reseau a:hover{
+  
+    
+  
+    color: black;
+ 
+}
+
+
